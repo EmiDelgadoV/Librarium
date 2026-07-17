@@ -98,6 +98,12 @@ El servidor estara disponible en el entorno local en http://localhost:8000/.
 
 El proyecto incluye un Dockerfile.prod optimizado de multiples etapas y un plano de infraestructura como codigo render.yaml. Esto permite que plataformas como Render detecten automaticamente la arquitectura, levanten la base de datos PostgreSQL gestionada y sirvan la aplicacion utilizando Gunicorn como servidor HTTP WSGI de nivel de produccion.
 
+
+## Deploy
+
+API disponible en producción: https://librarium-qacs.onrender.com
+
+Documentación navegable: https://librarium-qacs.onrender.com/api/
 ---
 ## Autor
 
